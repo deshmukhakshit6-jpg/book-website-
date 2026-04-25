@@ -10,37 +10,118 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<!-- Navbar -->
+<header>
   <nav class="navbar">
 
-  <!-- Logo -->
-<div class="logo">
-  <img src="assats/book logo.png" alt="Logo" class="logo-img">
-  <span class="logo-text">BOOKERFLY</span>
-</div>
+    <!-- Logo -->
+    <a href="#" class="logo">
+      <img src="assats/book logo.png" alt="Bookerfly Logo">
+      <span>BOOKERFLY</span>
+    </a>
 
-    <!-- Menu -->
-    <ul class="menu">
+    <!-- Navigation -->
+    <ul class="nav-links">
       <li><a href="#" class="active">Home</a></li>
       <li><a href="#">Categories</a></li>
+      <li><a href="#">Best Sellers</a></li>
+      <li><a href="#">New Arrivals</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
 
-    <!-- Search Bar -->
-    <div class="search-bar">
-      <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-      </svg>
-      <input type="text" placeholder="Search...">
+    <!-- Right Side -->
+    <div class="nav-right">
+
+      <!-- Search -->
+      <div class="nav-search">
+        <input type="text" placeholder="Search books...">
+        <button type="submit">🔍</button>
+      </div>
+
+      <!-- Buttons -->
+      <div class="nav-actions">
+        <a href="#" class="login-btn">Login</a>
+        <a href="#" class="shop-btn">Shop Now</a>
+      </div>
+
+      <!-- Mobile Toggle -->
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
     </div>
 
   </nav>
+</header>
 
-<section class="hero">
-  <div class="hero-content">
-    <h1>Welcome to Book Store</h1>
-    <p>Discover your next favorite book</p>
-    <a href="#" class="btn">📖 Read a Book</a>
+
+<!-- Hero Section -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <span class="hero-tag">📚 Welcome to Bookerfly</span>
+
+      <h1>Discover Your Next Favorite Book</h1>
+
+      <p>
+        Explore bestselling books, timeless classics,
+        and inspiring stories all in one place.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#" class="btn primary-btn">Shop Now</a>
+        <a href="#" class="btn secondary-btn">Browse Books</a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+<section>
+  <h2>Explore Our Collection</h2>
+  <p>Find books from every genre you love.</p>
+  <div>
+    <div class="card">
+      <img src="assats/rich dad and poor dad.jpg" alt="Rich Dad Poor Dad" />
+      <h3>Rich Dad Poor Dad</h3>
+      <p>Category: <strong>Business</strong></p>
+    </div>
+    <div class="card">
+      <img src="assats/Atomic Habits.jpeg" alt="Atomic Habits" />
+      <h3>Atomic Habits</h3>
+      <p>Category: <strong>Self Growth</strong></p>
+    </div>
+    <div class="card">
+      <img src="assats/The Alchemist.webp" alt="The Alchemist" />
+      <h3>The Alchemist</h3>
+      <p>Category: <strong>Fiction</strong></p>
+    </div>
+    <div class="card">
+      <img src="assats/Ikigai.webp" alt="Ikigai" />
+      <h3>Ikigai</h3>
+      <p>Category: <strong>Motivation</strong></p>
+    </div>
+    <div class="card">
+      <img src="assats/Academic Books.webp" alt="Academic Books" />
+      <h3>Academic Books</h3>
+      <p>Category: <strong>Academic</strong></p>
+    </div>
+    <div class="card">
+      <img src="assats/Children Books.webp" alt="Children Books" />
+      <h3>Children Books</h3>
+      <p>Category: <strong>Children</strong></p>
+    </div>
   </div>
 </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
